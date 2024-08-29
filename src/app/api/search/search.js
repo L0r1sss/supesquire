@@ -1,5 +1,5 @@
-import { PromptTemplate } from 'langchain';
-import { LLMChain } from 'langchain/chains';
+import { LLMChain} from 'langchain/chains';
+import {PromptTemplate} from '@langchain/core/prompts';
 
 import { qaChain } from '../langchain/chains';
 import { sequentialPipeline } from '../langchain/pipeline';

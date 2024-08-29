@@ -57,7 +57,7 @@ export default function App() {
       >
         <Stack rowGap={1} margin="0px 0px 40px 0px">
           <Typography variant="h4" color="#fff">
-            [S]upesquire
+            Doclink 
           </Typography>
           <Typography variant="body2" color="#fff">
             chat with your docs

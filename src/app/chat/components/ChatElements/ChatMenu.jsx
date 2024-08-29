@@ -74,7 +74,7 @@ export default function ChatMenu({ showMenu, chatId, setConversations, user }) {
         }}
         sx={{
           '.MuiMenu-paper > *': {
-            background: '#313338',
+            background: '#028090',
             color: '#d56f6f'
           }
         }}

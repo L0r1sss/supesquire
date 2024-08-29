@@ -90,7 +90,7 @@ export default function ChatMessage() {
           <>
             <LogoCard />
             <Typography sx={{ color: '#eeeeee', padding: '20px 0px' }}>
-              Your document has been processed! Quiz away!
+              Your document has been processed!
             </Typography>
             <Alert severity="info" sx={{ textAlign: 'center' }}>
               Ask anything about the <b>{currentDocument?.title}</b>

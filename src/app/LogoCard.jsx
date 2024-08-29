@@ -10,7 +10,7 @@ export default function LogoCard() {
       sx={{
         padding: '10px',
         borderRadius: '10px',
-        background: '#d9deff'
+        background: '#FFFFFF'
       }}
     >
       <Box

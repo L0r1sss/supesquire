@@ -22,7 +22,7 @@ export default function DeleteDialog({ chatToDelete, setChatToDelete }) {
       onClose={() => setChatToDelete(null)}
       sx={{
         '& .MuiDialog-paper': {
-          background: '#1e1f22',
+          background: '#028090',
           color: '#ffffff',
           borderRadius: '1px'
         },

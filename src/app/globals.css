@@ -8,11 +8,10 @@ body {
 }
 
 body {
-  background: url('/background.png');
   background-repeat: no-repeat;
   background-origin: content-box;
   background-size: 100% 130%;
-  background-color: #313338;
+  background-color: #FFFFFF;
   background-position: center;
 }
 

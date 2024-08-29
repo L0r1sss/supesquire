@@ -1,4 +1,5 @@
-import { LLMChain, PromptTemplate } from 'langchain';
+import { LLMChain} from 'langchain/chains';
+import {PromptTemplate} from '@langchain/core/prompts';
 
 import { llm } from '../openai';
 

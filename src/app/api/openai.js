@@ -1,7 +1,7 @@
-import { ChatOpenAI } from 'langchain/chat_models/openai';
-import { OpenAIEmbeddings } from 'langchain/embeddings/openai';
+import { ChatOpenAI } from '@langchain/openai';
+import { OpenAIEmbeddings } from '@langchain//openai';
 import { BufferMemory } from 'langchain/memory';
-import { OpenAIApi } from 'openai';
+import { OpenAI } from 'openai';
 
 const chatMemory = new BufferMemory();
 
@@ -12,7 +12,7 @@ const llm = new ChatOpenAI({
   temperature: 0.9
 });
 
-const openAI = new OpenAIApi({
+const openAI = new OpenAI({
   apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY
 });
 

@@ -67,7 +67,7 @@ export default function ChatInput({ submitHandler, placeHolder, mode }) {
                   <KeyboardArrowRight
                     sx={{
                       fontSize: '40px',
-                      color: '#86878a',
+                      color: '#028090',
                       padding: '0px'
                     }}
                   />
